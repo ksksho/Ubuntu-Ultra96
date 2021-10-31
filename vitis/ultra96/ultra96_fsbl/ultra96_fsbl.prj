@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ultra96_fsbl" location="/home/ksksho/vitis/Ubuntu-Ultra96/vitis/ultra96/ultra96_fsbl" platform="/home/ksksho/vitis/Ubuntu-Ultra96/vitis/ultra96/ultra96_fpga_wrapper/export/ultra96_fpga_wrapper/ultra96_fpga_wrapper.xpfm" platformUID="xilinx:ultra96v1::0.0(custom)" systemProject="ultra96_fsbl_system" sysConfig="ultra96_fpga_wrapper" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="2f0d6c15af54e32e37169f1bfa7ee57e">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1188316020">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1743262611" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynqmp_fsbl" hasBspSettings="true"/>
+</sdkproject:SdkProject>

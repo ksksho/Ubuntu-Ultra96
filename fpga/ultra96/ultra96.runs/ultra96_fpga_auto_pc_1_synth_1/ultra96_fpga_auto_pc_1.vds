@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 31 21:42:50 2021
+# Process ID: 6238
+# Current directory: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/ultra96_fpga_auto_pc_1_synth_1
+# Command line: vivado -log ultra96_fpga_auto_pc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ultra96_fpga_auto_pc_1.tcl
+# Log file: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/ultra96_fpga_auto_pc_1_synth_1/ultra96_fpga_auto_pc_1.vds
+# Journal file: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/ultra96_fpga_auto_pc_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ultra96_fpga_auto_pc_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ultra96_fpga_auto_pc_1, cache-ID = 7ec538ff00c66f71.
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 31 21:43:05 2021...

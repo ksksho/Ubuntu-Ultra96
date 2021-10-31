@@ -1,0 +1,295 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 31 21:50:58 2021
+# Process ID: 8774
+# Current directory: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1
+# Command line: vivado -log ultra96_fpga_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ultra96_fpga_wrapper.tcl
+# Log file: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/ultra96_fpga_wrapper.vds
+# Journal file: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ultra96_fpga_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top ultra96_fpga_wrapper -part xczu3eg-sbva484-1-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8817
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2717.039 ; gain = 39.812 ; free physical = 124 ; free virtual = 2274
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_wrapper' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/hdl/ultra96_fpga_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:56188]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:56188]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:965]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_axi_gpio_0_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_axi_gpio_0_0' (2#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_ps8_0_axi_periph_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1299]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_16P59ML' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_16P59ML' (3#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:12]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_10TPHDA' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:144]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_auto_ds_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_auto_ds_0' (4#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_auto_pc_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_auto_pc_0' (5#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_10TPHDA' (6#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:144]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_14XYPDA' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:554]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_auto_ds_1' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_auto_ds_1' (7#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_auto_pc_1' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_auto_pc_1' (8#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_14XYPDA' (9#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:554]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_xbar_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_xbar_0' (10#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_xbar_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ultra96_fpga_xbar_0' is unconnected for instance 'xbar' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1902]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ultra96_fpga_xbar_0' is unconnected for instance 'xbar' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1902]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'ultra96_fpga_xbar_0' has 40 connections declared, but only 38 given [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1902]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_ps8_0_axi_periph_0' (11#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1299]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_rst_ps8_0_100M_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_rst_ps8_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_rst_ps8_0_100M_0' (12#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_rst_ps8_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'ultra96_fpga_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1205]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ultra96_fpga_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1205]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ultra96_fpga_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1205]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ultra96_fpga_rst_ps8_0_100M_0' is unconnected for instance 'rst_ps8_0_100M' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1205]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_100M' of module 'ultra96_fpga_rst_ps8_0_100M_0' has 10 connections declared, but only 6 given [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1205]
+INFO: [Synth 8-6157] synthesizing module 'ultra96_fpga_zynq_ultra_ps_e_0_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_zynq_ultra_ps_e_0_0' (13#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/.Xil/Vivado-8774-ksksho-HP-Spectre-x360-Convertible-13-ac0XX/realtime/ultra96_fpga_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'ultra96_fpga_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1212]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'ultra96_fpga_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1212]
+WARNING: [Synth 8-7071] port 'maxigp1_awuser' of module 'ultra96_fpga_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1212]
+WARNING: [Synth 8-7071] port 'maxigp1_aruser' of module 'ultra96_fpga_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1212]
+WARNING: [Synth 8-7071] port 'emio_uart0_dtrn' of module 'ultra96_fpga_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1212]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'ultra96_fpga_zynq_ultra_ps_e_0_0' has 89 connections declared, but only 84 given [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:1212]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga' (14#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/synth/ultra96_fpga.v:965]
+INFO: [Synth 8-6155] done synthesizing module 'ultra96_fpga_wrapper' (15#1) [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/hdl/ultra96_fpga_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2759.977 ; gain = 82.750 ; free physical = 127 ; free virtual = 1469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2780.789 ; gain = 103.562 ; free physical = 133 ; free virtual = 1253
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2780.789 ; gain = 103.562 ; free physical = 134 ; free virtual = 1253
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2792.695 ; gain = 0.000 ; free physical = 163 ; free virtual = 1250
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_zynq_ultra_ps_e_0_0/ultra96_fpga_zynq_ultra_ps_e_0_0/ultra96_fpga_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'ultra96_fpga_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_zynq_ultra_ps_e_0_0/ultra96_fpga_zynq_ultra_ps_e_0_0/ultra96_fpga_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'ultra96_fpga_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_axi_gpio_0_0/ultra96_fpga_axi_gpio_0_0/ultra96_fpga_axi_gpio_0_0_in_context.xdc] for cell 'ultra96_fpga_i/axi_gpio_0'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_axi_gpio_0_0/ultra96_fpga_axi_gpio_0_0/ultra96_fpga_axi_gpio_0_0_in_context.xdc] for cell 'ultra96_fpga_i/axi_gpio_0'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_xbar_0/ultra96_fpga_xbar_0/ultra96_fpga_xbar_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_xbar_0/ultra96_fpga_xbar_0/ultra96_fpga_xbar_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_ds_0/ultra96_fpga_auto_ds_0/ultra96_fpga_auto_ds_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_ds_0/ultra96_fpga_auto_ds_0/ultra96_fpga_auto_ds_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_pc_0/ultra96_fpga_auto_pc_0/ultra96_fpga_auto_pc_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_pc_0/ultra96_fpga_auto_pc_0/ultra96_fpga_auto_pc_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_ds_1/ultra96_fpga_auto_ds_1/ultra96_fpga_auto_ds_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_ds_1/ultra96_fpga_auto_ds_1/ultra96_fpga_auto_ds_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_pc_1/ultra96_fpga_auto_pc_1/ultra96_fpga_auto_pc_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_auto_pc_1/ultra96_fpga_auto_pc_1/ultra96_fpga_auto_pc_0_in_context.xdc] for cell 'ultra96_fpga_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_rst_ps8_0_100M_0/ultra96_fpga_rst_ps8_0_100M_0/ultra96_fpga_rst_ps8_0_100M_0_in_context.xdc] for cell 'ultra96_fpga_i/rst_ps8_0_100M'
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.gen/sources_1/bd/ultra96_fpga/ip/ultra96_fpga_rst_ps8_0_100M_0/ultra96_fpga_rst_ps8_0_100M_0/ultra96_fpga_rst_ps8_0_100M_0_in_context.xdc] for cell 'ultra96_fpga_i/rst_ps8_0_100M'
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.srcs/constrs_1/new/uart0_gpio.xdc]
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.srcs/constrs_1/new/uart0_gpio.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.srcs/constrs_1/new/uart0_gpio.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ultra96_fpga_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ultra96_fpga_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2916.461 ; gain = 0.000 ; free physical = 833 ; free virtual = 2017
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 16 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2916.461 ; gain = 0.000 ; free physical = 832 ; free virtual = 2017
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2916.461 ; gain = 239.234 ; free physical = 874 ; free virtual = 2073
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2916.461 ; gain = 239.234 ; free physical = 878 ; free virtual = 2076
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/ps8_0_axi_periph/s01_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/ps8_0_axi_periph/s01_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/ps8_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ultra96_fpga_i/rst_ps8_0_100M. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2916.461 ; gain = 239.234 ; free physical = 878 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2916.461 ; gain = 239.234 ; free physical = 875 ; free virtual = 2076
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2916.461 ; gain = 239.234 ; free physical = 870 ; free virtual = 2083
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3310.617 ; gain = 633.391 ; free physical = 263 ; free virtual = 1527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3310.617 ; gain = 633.391 ; free physical = 263 ; free virtual = 1527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3329.648 ; gain = 652.422 ; free physical = 261 ; free virtual = 1525
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 255 ; free virtual = 1532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 255 ; free virtual = 1532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 255 ; free virtual = 1532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 255 ; free virtual = 1532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 254 ; free virtual = 1531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 253 ; free virtual = 1531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------------------+----------+
+|      |BlackBox name                    |Instances |
++------+---------------------------------+----------+
+|1     |ultra96_fpga_xbar_0              |         1|
+|2     |ultra96_fpga_auto_ds_0           |         1|
+|3     |ultra96_fpga_auto_pc_0           |         1|
+|4     |ultra96_fpga_auto_ds_1           |         1|
+|5     |ultra96_fpga_auto_pc_1           |         1|
+|6     |ultra96_fpga_axi_gpio_0_0        |         1|
+|7     |ultra96_fpga_rst_ps8_0_100M_0    |         1|
+|8     |ultra96_fpga_zynq_ultra_ps_e_0_0 |         1|
++------+---------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------+------+
+|      |Cell                           |Count |
++------+-------------------------------+------+
+|1     |ultra96_fpga_auto_ds           |     2|
+|3     |ultra96_fpga_auto_pc           |     2|
+|5     |ultra96_fpga_axi_gpio_0        |     1|
+|6     |ultra96_fpga_rst_ps8_0_100M    |     1|
+|7     |ultra96_fpga_xbar              |     1|
+|8     |ultra96_fpga_zynq_ultra_ps_e_0 |     1|
+|9     |IBUF                           |     1|
+|10    |IOBUF                          |    16|
+|11    |OBUF                           |     1|
++------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3335.586 ; gain = 658.359 ; free physical = 253 ; free virtual = 1530
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3335.586 ; gain = 522.688 ; free physical = 290 ; free virtual = 1567
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 3335.594 ; gain = 658.359 ; free physical = 290 ; free virtual = 1567
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3338.555 ; gain = 0.000 ; free physical = 279 ; free virtual = 1564
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3369.273 ; gain = 0.000 ; free physical = 301 ; free virtual = 1590
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 16 instances
+
+Synth Design complete, checksum: 15c55872
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:38 . Memory (MB): peak = 3369.273 ; gain = 823.047 ; free physical = 440 ; free virtual = 1730
+INFO: [Common 17-1381] The checkpoint '/home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/synth_1/ultra96_fpga_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ultra96_fpga_wrapper_utilization_synth.rpt -pb ultra96_fpga_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 31 21:51:51 2021...

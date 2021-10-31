@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 31 21:42:24 2021
+# Process ID: 6044
+# Current directory: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/ultra96_fpga_rst_ps8_0_100M_0_synth_1
+# Command line: vivado -log ultra96_fpga_rst_ps8_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ultra96_fpga_rst_ps8_0_100M_0.tcl
+# Log file: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/ultra96_fpga_rst_ps8_0_100M_0_synth_1/ultra96_fpga_rst_ps8_0_100M_0.vds
+# Journal file: /home/ksksho/vitis/Ubuntu-Ultra96/fpga/ultra96/ultra96.runs/ultra96_fpga_rst_ps8_0_100M_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ultra96_fpga_rst_ps8_0_100M_0.tcl -notrace

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ultra96v2_pmufw" location="/home/ksksho/vitis/Ubuntu-Ultra96/vitis/ultra96v2/ultra96v2_pmufw" platform="/home/ksksho/vitis/Ubuntu-Ultra96/vitis/ultra96v2/ultra96v2_fpga/export/ultra96v2_fpga/ultra96v2_fpga.xpfm" platformUID="xilinx:ultra96v2::0.0(custom)" systemProject="ultra96v2_pmufw_system" sysConfig="ultra96v2_fpga" runtime="cpp" cpu="standalone_psu_pmu_0" cpuInstance="psu_pmu_0" os="standalone" mssSignature="63fcb9a230f72aaa7e81ee945b7a8def">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.663387414">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1790236974" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynqmp_pmufw" hasBspSettings="true"/>
+</sdkproject:SdkProject>

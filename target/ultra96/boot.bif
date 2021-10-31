@@ -1,0 +1,9 @@
+the_ROM_image:
+{
+        [fsbl_config] a53_x64
+        [bootloader]                                              ../../vitis/ultra96/ultra96_fsbl/Debug/ultra96_fsbl.elf
+        [pmufw_image]                                             ../../vitis/ultra96/ultra96_pmufw/Debug/ultra96_pmufw.elf
+        [destination_device=pl]                                   ../../fpga/ultra96/ultra96_fpga.bit
+        [destination_cpu=a53-0, exception_level=el-3, trustzone]  ../../clone_file/arm-trusted-firmware/bl31.elf
+        [destination_cpu=a53-0, exception_level=el-2]             ../../clone_file/ZynqMP-U-Boot-Ultra96/u-boot.elf
+}
